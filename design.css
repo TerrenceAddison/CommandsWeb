@@ -1,0 +1,28 @@
+h3 {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-color {
+  text-align: center;
+  background-color: #3b3b38;
+}
+
+.masthead-brand {
+  color: white;
+  text-align: left;
+}
+
+a {
+  color: white;
+}
+
+.imagesize {
+  width: 10%;
+  height: 10%;
+}
+
+/*# sourceMappingURL=design.css.map */
