@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "design.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+    </head>
+    <body class = "text-center" id = "bg-gradient">
+      <header class = "masthead mb-auto">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Git Commands</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Homepage <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="installation.html">Installation</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="commands.html">Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Help</a>
+                  </li>
+              </ul>
+             <img id = "optional" class = "imagesize" src = "http://getdrawings.com/vectors/github-icon-vector-31.png">
+            </div>
+        </nav> 
+        </header>
+
+    <main>
+        <br><br><br>    
+        
+        <div class="container">
+              <h1 class="display-4">Commands section</h1>
+              <p class="lead">Below are some essential commands of git.</p>
+        
+        </div>
+        <div class = "container">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Starting Project</th>
+                <th scope="col">Inspection & Comparison</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-md-4 themed-grid-col">git init</div>
+                        <div class="col-6 col-md-4 themed-grid-col">Initialize new local repository</div>
+                      </div>
+
+
+
+                </td>
+
+                <td>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4 themed-grid-col">git log</div>
+                        <div class="col-6 col-md-4 themed-grid-col">View changes</div>
+                      </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="row mb-3">
+                        <div class="col-md-4 themed-grid-col">git clone "link"</div>
+                        <div class="col-6 col-md-4 themed-grid-col">Creates local copy of remote repository</div>
+                      </div>
+
+                </td>
+                <td>
+                    <div class="row mb-3">
+                        <div class="col-md-4 themed-grid-col">git log --summary</div>
+                        <div class="col-6 col-md-4 themed-grid-col">Detailed log</div>
+                      </div>
+
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td> <div class="row mb-3">
+                    <div class="col-md-4 themed-grid-col">git log --oneline</div>
+                    <div class="col-6 col-md-4 themed-grid-col">Brief log</div>
+                  </div></td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-md-4 themed-grid-col"></div>
+                        <div class="col-6 col-md-4 themed-grid-col"></div>
+                      </div>
+
+
+
+                </td>
+
+                <td>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4 themed-grid-col">git diff [source branch] [target branch]</div>
+                        <div class="col-6 col-md-4 themed-grid-col">Preview changes before merging</div>
+                      </div>
+                </td>
+              </tr>
+            </tbody>
+            <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Basic Snapshots</th>
+                  <th scope="col">Branching and merging</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                      <div class="row">
+                          <div class="col-md-4 themed-grid-col">git status</div>
+                          <div class="col-6 col-md-4 themed-grid-col">Checks Status</div>
+                        </div>
+  
+  
+  
+                  </td>
+  
+                  <td>
+  
+                      <div class="row mb-3">
+                          <div class="col-md-4 themed-grid-col">git branch</div>
+                          <div class="col-6 col-md-4 themed-grid-col">Lists all branches</div>
+                        </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                      <div class="row mb-3">
+                          <div class="col-md-4 themed-grid-col">git add "filename.txt"</div>
+                          <div class="col-6 col-md-4 themed-grid-col">Add file for preparation</div>
+                        </div>
+  
+                  </td>
+                  <td>
+                      <div class="row mb-3">
+                          <div class="col-md-4 themed-grid-col">git branch --a</div>
+                          <div class="col-6 col-md-4 themed-grid-col">List all branches local and remote</div>
+                        </div>
+  
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class = "row mb-3">
+                    <div class="col-md-4 themed-grid-col">git add -A </div>
+                    <div class="col-6 col-md-4 themed-grid-col">Adds all new and edited file for preparation</div>
+                    </div>
+                  </td>
+                  <td> <div class="row mb-3">
+                      <div class="col-md-4 themed-grid-col">git branch [branch name] </div>
+                      <div class="col-6 col-md-4 themed-grid-col">Creates new branch</div>
+                    </div></td>
+                </tr>
+                <tr>
+                  <td>
+                      <div class="row">
+                          <div class="col-md-4 themed-grid-col">git commit -m "message"</div>
+                          <div class="col-6 col-md-4 themed-grid-col">Commit changes</div>
+                        </div>
+                    </td>
+  
+                  <td>
+  
+                      <div class="row mb-3">
+                          <div class="col-md-4 themed-grid-col">git branch -d [branch name]</div>
+                          <div class="col-6 col-md-4 themed-grid-col">Deletes branch</div>
+                        </div>
+                  </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="row">
+                            <div class="col-md-4 themed-grid-col">git rm -r [file-name.txt]"</div>
+                            <div class="col-6 col-md-4 ">Removes file or folder</div>
+                          </div>
+                      </td>
+    
+                    <td>
+    
+                        <div class="row mb-3">
+                            <div class="col-md-4 ">git push origin --delete [branch name]</div>
+                            <div class="col-6 col-md-4 ">Deletes remote branch</div>
+                          </div>
+                    </td>
+                  </tr>
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Sharing & Updating Projects</th>
+                      <th  style= "background-color:transparent;font-weight:400;color:black; border-bottom: transparent;" scope="col">
+                        
+                        <div class="row mb-3">
+                            <div class="col-md-4 themed-grid-col">git checkout -b [branch name]</div>
+                            <div class="col-6 col-md-4 themed-grid-col">Create new branch and switch to it</div>
+                          </div>
+                        </th>
+                    </tr>
+                  </thead>
+                  <tr>
+                    <td>
+                        <div class="row mb-3">
+                            <div class="col-md-4 themed-grid-col">git push origin [branch name]</div>
+                            <div class="col-6 col-md-4 themed-grid-col">Push a branch to remote repository</div>
+                          </div>
+    
+                    </td>
+                    <td>
+                        <div class="row mb-3">
+                            <div class="col-md-4 themed-grid-col">git checkout -b [branch name] origin/[branch name]</div>
+                            <div class="col-6 col-md-4 themed-grid-col">Clone remote branch and switch to it</div>
+                          </div>
+    
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class = "row mb-3">
+                      <div class="col-md-4 themed-grid-col">git push -u origin [branch name] </div>
+                      <div class="col-6 col-md-4 themed-grid-col">Push change to remote repository and remember branch</div>
+                      </div>
+                    </td>
+                    <td> <div class="row mb-3">
+                        <div class="col-md-4 themed-grid-col">git branch -m [old branch name] [new branch name] </div>
+                        <div class="col-6 col-md-4 themed-grid-col">Rename a local branch</div>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <div class="row">
+                            <div class="col-md-4 themed-grid-col">git push</div>
+                            <div class="col-6 col-md-4 themed-grid-col">Push changes to remote repository and remember branch</div>
+                          </div>
+                      </td>
+    
+                    <td>
+    
+                        <div class="row mb-3">
+                            <div class="col-md-4 themed-grid-col">git checkout [branch name]</div>
+                            <div class="col-6 col-md-4 themed-grid-col">Switch to another branch</div>
+                          </div>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="row">
+                              <div class="col-md-4 themed-grid-col">git push origin --delete [branch name]</div>
+                              <div class="col-6 col-md-4 ">Deletes remote branch</div>
+                            </div>
+                        </td>
+      
+                      <td>
+      
+                          <div class="row mb-3">
+                              <div class="col-md-4 ">git checkout -</div>
+                              <div class="col-6 col-md-4 ">Switch back to last branch checked out</div>
+                            </div>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="row mb-3">
+                                <div class="col-md-4 themed-grid-col">git pull</div>
+                                <div class="col-6 col-md-4 themed-grid-col">Updates local repository to latest commit</div>
+                              </div>
+        
+                        </td>
+                        <td>
+                            <div class="row mb-3">
+                                <div class="col-md-4 themed-grid-col">git checkout -- "filename.txt" </div>
+                                <div class="col-6 col-md-4 themed-grid-col">Discard changes to a file</div>
+                              </div>
+        
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class = "row mb-3">
+                          <div class="col-md-4 themed-grid-col">git pull origin [branch name] </div>
+                          <div class="col-6 col-md-4 themed-grid-col">Pull changes from remote repository</div>
+                          </div>
+                        </td>
+                        <td> <div class="row mb-3">
+                            <div class="col-md-4 themed-grid-col">git merge [branch name] </div>
+                            <div class="col-6 col-md-4 themed-grid-col">Merge a branch into active branch</div>
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col-md-4 themed-grid-col">git remote add origin "link"</div>
+                                <div class="col-6 col-md-4 themed-grid-col">Adds remote repository</div>
+                              </div>
+                          </td>
+        
+                        <td>
+        
+                            <div class="row mb-3">
+                                <div class="col-md-4 themed-grid-col">git merge [source branch] [target branch]</div>
+                                <div class="col-6 col-md-4 themed-grid-col">Merge a branch into target branch</div>
+                              </div>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <div class="row">
+                                  <div class="col-md-4 themed-grid-col">git remote set-url origin "link"</div>
+                                  <div class="col-6 col-md-4 ">Sets repository's origin branch to link</div>
+                                </div>
+                            </td>
+          
+                          <td>
+          
+                              <div class="row mb-3">
+                                  <div class="col-md-4 ">git stash</div>
+                                  <div class="col-6 col-md-4 ">Stash changes in a dirty working directory</div>
+                                </div>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="row">
+                                    <div class="col-md-4 themed-grid-col"></div>
+                                    <div class="col-6 col-md-4 "></div>
+                                  </div>
+                              </td>
+            
+                            <td>
+            
+                                <div class="row mb-3">
+                                    <div class="col-md-4 ">git stash clear</div>
+                                    <div class="col-6 col-md-4 ">Removes all stashed entries</div>
+                                  </div>
+                            </td>
+                          </tr>
+              </tbody>
+          </table>
+          <p style = "text-align:left";>*link = "ssh://git@github.com/[username]/[repository-name].git"</p>
+        </div>
+        
+    </main>
+<br>
+    <footer class = "mastfoot mt-auto">
+    
+        <div class = "inner">
+          <p class = "design"> Design by _______
+
+          </p>
+        </div>
+    
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,8 +1,60 @@
 $var:white;
-
-h3
+$hometext: #474950;
+%sharedborder
 {
-color:$var
+    border-right: 1px solid grey;
+    border:1px solid grey;
+}
+
+@media (max-width:770px)
+{
+table{
+    tr{
+        td {
+             font-size:10px;
+        }
+
+    }
+}
+
+table {
+    thead{
+        tr{
+            th{
+                div{
+                    font-size:10px;
+                }
+            }
+        }
+    }
+};
+}
+.bg-dark
+{
+    color:$var;
+}
+.mb-0
+{
+    font-size:30px;
+    color:$hometext;
+}
+
+.mb-1
+
+{
+    font-size:20px;
+    color:$hometext;
+}
+
+.blockquote
+{
+    font-size:15px;
+    color:$hometext;
+}
+
+.design
+{
+    color:#9d9da3;
 }
 .text-center
 {
@@ -21,8 +73,91 @@ a
 {
 color:$var;
 }
+
+li{
+        .light
+        {
+            color:#9e9ca6;
+        }
+        .dark
+        {
+            color: white;
+        }
+}
 .imagesize
 {
-    width: 10%;
-    height:10%;
+    width: 8%;
+    height:8%;
 }
+#bg-gradient
+{
+    background: radial-gradient(circle, rgba(240,240,240,1) 0%, rgba(222,222,222,1) 67%, rgba(205,205,205,1) 100%);
+}
+
+.subtext
+{
+      font-size:25px;
+}
+
+.comment
+{
+  font-size:20px;
+}
+
+.hometext {
+    color:$hometext
+}
+
+table.table-bordered{
+    thead{
+        tr{
+            th{
+                @extend %sharedborder;
+                margin-top:20px;
+            }
+        }
+    }
+  }
+table.table-bordered
+{
+    thead{
+        tr{
+            th{
+                @extend %sharedborder; 
+            }
+        }
+    }
+} 
+table.table-bordered
+{
+    tbody{
+        tr{
+            td{
+                @extend %sharedborder;
+            }
+        }
+    }
+}
+
+#continuation
+{
+    background-color:transparent;
+}
+
+
+@media (max-width:990px)
+{
+    #optional {
+        display:none;
+        
+    }
+}
+
+.helplink:hover
+{
+
+}
+
+
+
+

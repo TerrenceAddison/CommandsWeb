@@ -1,5 +1,38 @@
-h3 {
+table.table-bordered tbody tr td, table.table-bordered thead tr th {
+  border-right: 1px solid grey;
+  border: 1px solid grey;
+}
+
+@media (max-width: 770px) {
+  table tr td {
+    font-size: 10px;
+  }
+
+  table thead tr th div {
+    font-size: 10px;
+  }
+}
+.bg-dark {
   color: white;
+}
+
+.mb-0 {
+  font-size: 30px;
+  color: #474950;
+}
+
+.mb-1 {
+  font-size: 20px;
+  color: #474950;
+}
+
+.blockquote {
+  font-size: 15px;
+  color: #474950;
+}
+
+.design {
+  color: #9d9da3;
 }
 
 .text-center {
@@ -20,9 +53,46 @@ a {
   color: white;
 }
 
+li .light {
+  color: #9e9ca6;
+}
+li .dark {
+  color: white;
+}
+
 .imagesize {
-  width: 10%;
-  height: 10%;
+  width: 8%;
+  height: 8%;
+}
+
+#bg-gradient {
+  background: radial-gradient(circle, #f0f0f0 0%, #dedede 67%, #cdcdcd 100%);
+}
+
+.subtext {
+  font-size: 25px;
+}
+
+.comment {
+  font-size: 20px;
+}
+
+.hometext {
+  color: #474950;
+}
+
+table.table-bordered thead tr th {
+  margin-top: 20px;
+}
+
+#continuation {
+  background-color: transparent;
+}
+
+@media (max-width: 990px) {
+  #optional {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=design.css.map */
